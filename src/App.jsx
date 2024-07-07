@@ -23,17 +23,17 @@ const BottomTab = () => {
       <Tab.Screen name='Laundry' component={LaundryApp} options={{
       tabBarLabel: 'Laundry',
       tabBarIcon: ({ color }) => (
-        <MaterialCommunityIcons name="home" color={color} size={26} />
+        <MaterialCommunityIcons name="home" color={color} size={25} />
       ), }} />
       <Tab.Screen name='beranda' component={Beranda} options={{
       tabBarLabel: 'check',
       tabBarIcon: ({ color }) => (
-        <MaterialCommunityIcons name="poll" color={color} size={26} />
+        <MaterialCommunityIcons name="poll" color={color} size={25} />
       ), }} />
       <Tab.Screen name='Account' component={Account} options={{
           tabBarLabel: 'Account',
           tabBarIcon: ({ color }) => (
-            <MaterialCommunityIcons name="account" color={color} size={26} />
+            <MaterialCommunityIcons name="account" color={color} size={25} />
           ),
       
       }} />
